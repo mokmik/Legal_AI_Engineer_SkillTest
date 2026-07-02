@@ -1,0 +1,90 @@
+
+=== T&C adaptation: France -> Germany ===
+Status: IMPACTED - overall confidence: MEDIUM
+
+Original clause:
+  Les virements en euros sont exécutés conformément à la réglementation SEPA applicable aux virements et prélèvements en euros.
+
+Proposed clause:
+  Euro-Überweisungen werden gemäß den anwendbaren SEPA-Regelwerken für Überweisungen und Lastschriften in Euro ausgeführt, einschließlich der Regelungen für SEPA-Echtzeitüberweisungen (SEPA Instant Credit Transfer) gemäß der Verordnung (EU) 2024/886 des Europäischen Parlaments und des Rates vom 13. März 2024 (Instant Payments Verordnung). Soweit Echtzeitüberweisungen angeboten werden, gelten die gesetzlich vorgeschriebenen Bedingungen, insbesondere hinsichtlich Ausführungsfristen, Entgeltgrundsätzen und der Pflicht zur Überprüfung der Übereinstimmung von IBAN und Zahlungsempfängername.
+
+Points requiring legal validation (4, 3 material):
+  1. [MEDIUM, material] Phased compliance deadlines under Regulation (EU) 2024/886 for PSPs in Germany
+  2. [MEDIUM, material] IBAN-Name Check (Verification of Payee) mandatory implementation date and technical standard in Germany
+  3. [MEDIUM, material] Fee non-discrimination principle: whether Qonto's specific pricing model complies with Article 5a of Regulation (EU) 2024/886
+  4. [MEDIUM] Interaction with German ZAG and BGB provisions on payment execution
+
+Recommendation: A Germany-qualified lawyer must confirm the points above before publication.
+
+This output is a draft for human legal review only. It has no legal validity until validated by a qualified lawyer.
+
+
+=== T&C adaptation: France -> Spain ===
+Status: IMPACTED - overall confidence: LOW
+! Mandatory review by a local legal expert required before any use.
+! More than three material points of uncertainty - do not use without a full legal review.
+
+Original clause:
+  Le client dispose d'un délai de rétractation de 14 jours à compter de la conclusion du contrat à distance, conformément aux dispositions applicables.
+
+Proposed clause:
+  El cliente dispone de un plazo de desistimiento de 14 días naturales a partir de la celebración del contrato a distancia, de conformidad con lo dispuesto en el Real Decreto Legislativo 1/2007, de 16 de noviembre, por el que se aprueba el texto refundido de la Ley General para la Defensa de los Consumidores y Usuarios, y en la Ley 22/2007, de 11 de julio, sobre comercialización a distancia de servicios financieros destinados a los consumidores, en lo que resulte aplicable.
+
+Points requiring legal validation (5, 4 material):
+  1. [LOW, material] B2B scope: whether Qonto's Spanish clients qualify as 'consumers' (consumidores)
+  2. [MEDIUM, material] Applicability of Ley 22/2007 vs. RDL 1/2007 to Qonto's specific products
+  3. [MEDIUM, material] Whether the 14-day period runs from contract conclusion or another trigger date
+  4. [MEDIUM, material] Exclusions from the withdrawal right for certain financial instruments or services
+  5. [MEDIUM] Form and method of exercising the withdrawal right under Spanish law
+
+Recommendation: Do not publish as drafted. A Spain-qualified lawyer must validate every point above first.
+
+This output is a draft for human legal review only. It has no legal validity until validated by a qualified lawyer.
+
+
+=== T&C adaptation: France -> Netherlands ===
+Status: IMPACTED - overall confidence: LOW
+! Mandatory review by a local legal expert required before any use.
+! More than three material points of uncertainty - do not use without a full legal review.
+
+Original clause:
+  La responsabilité de Qonto est limitée au montant des frais payés par le client au cours des 12 derniers mois. Cette limitation s'applique à tous les dommages directs et indirects.
+
+Proposed clause:
+  De aansprakelijkheid van Qonto is beperkt tot het bedrag van de vergoedingen die de klant in de afgelopen 12 maanden heeft betaald voor de betreffende betaaldienst(en). Deze beperking is van toepassing op alle directe schade. De aansprakelijkheid van Qonto voor indirecte schade — waaronder gederfde winst, gevolgschade en gemiste besparingen — is uitgesloten, voor zover toegestaan door het toepasselijke recht. Voor zover Qonto betaaldiensten verleent in de zin van de Wet op het financieel toezicht (Wft) en de daarop gebaseerde regelgeving ter implementatie van de herziene Richtlijn Betaaldiensten (PSD2), gelden de dwingende aansprakelijkheidsregels uit die regelgeving onverminderd naast deze beperking.
+
+Points requiring legal validation (6, 5 material):
+  1. [LOW, material] PSD2 mandatory liability rules override contractual caps for payment services
+  2. [LOW, material] Applicability and scope of PSD3 / PSR (Payment Services Regulation) in the Netherlands
+  3. [MEDIUM, material] Exclusion of indirect damages in B2C (consumer) contracts under Dutch law
+  4. [MEDIUM, material] Exclusion of liability for gross negligence or wilful misconduct (opzet/grove schuld)
+  5. [MEDIUM, material] 12-month fee cap: reasonableness test under Dutch law (Article 6:248 / 6:233 BW)
+  6. [MEDIUM] Correct Dutch statutory references for payment services liability
+
+Recommendation: Do not publish as drafted. A Netherlands-qualified lawyer must validate every point above first.
+
+This output is a draft for human legal review only. It has no legal validity until validated by a qualified lawyer.
+
+
+=== T&C adaptation: France -> Germany ===
+Status: IMPACTED - overall confidence: LOW
+! Mandatory review by a local legal expert required before any use.
+! More than three material points of uncertainty - do not use without a full legal review.
+
+Original clause:
+  Le client peut exercer à tout moment ses droits d'accès, de rectification et d'effacement concernant ses données personnelles, conformément au Règlement général sur la protection des données (RGPD).
+
+Proposed clause:
+  Der Kunde kann jederzeit seine Rechte auf Auskunft, Berichtigung und Löschung seiner personenbezogenen Daten geltend machen, sowie das Recht auf Einschränkung der Verarbeitung, das Recht auf Datenübertragbarkeit und das Widerspruchsrecht, gemäß der Datenschutz-Grundverordnung (DSGVO) und dem Bundesdatenschutzgesetz (BDSG). Darüber hinaus hat der Kunde das Recht, eine Beschwerde bei der zuständigen Datenschutzaufsichtsbehörde einzureichen.
+
+Points requiring legal validation (5, 4 material):
+  1. [LOW, material] Right to object (Widerspruchsrecht, Art. 21 DSGVO) — mandatory prominence requirement
+  2. [LOW, material] Applicability of sector-specific financial/payment services rules under German law
+  3. [MEDIUM, material] Mandatory reference to the BDSG (Bundesdatenschutzgesetz) alongside the DSGVO
+  4. [MEDIUM, material] Completeness of enumerated GDPR rights required under German regulatory practice
+  5. [MEDIUM] Identification of the competent supervisory authority (zuständige Datenschutzaufsichtsbehörde)
+
+Recommendation: Do not publish as drafted. A Germany-qualified lawyer must validate every point above first.
+
+This output is a draft for human legal review only. It has no legal validity until validated by a qualified lawyer.
+
